@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% block title %} News {% endblock %}
+
+
+{% block body %}
+
+<h1>This is our news page</h1>
+<!-- <p>Hello user</p> -->
+<!-- {{list}}
+<ul>
+{% for language in list %}
+
+    <li>
+        {{ language }}
+    </li>
+
+
+{% endfor %}
+</ul>
+
+
+{% if newslist == 50 %}
+<p>The condition is true</p>
+{% else %}
+<p>Condition is False</p>
+{% endif %} -->
+<h1>{{data.author}}</h1>
+<h1>{{data.title}}</h1>
+<h1>{{data.description}}</h1>
+
+{% endblock %}
